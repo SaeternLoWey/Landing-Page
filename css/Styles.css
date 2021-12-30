@@ -1,8 +1,123 @@
 body {
-    background-color: 	#ffde22;
-    color: black;
+    background-color: 	 #FFF0AA;
+    color: rgba(255, 0, 0, 0.575);
+    margin: 0;
+    
 }
 
+
+
+.Header-Container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffb7c5;
+    
+    
+    
+}
+
+.Header-Container-Center {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.Logo {
+    border: 5px solid red;
+}
+
+.Header-Text {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+
+.Header-Logos-Links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Header-Logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header-Body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.Header-Info-Left-Info{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 250px;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+
+.Header-Website-Info-Text {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.Header-Website-Info-Subtext {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Header-Website-Info-Button {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100px;
+}
+
+.Header-Links {
+    
+}
+
+.Header-Image-Container {
+    border: 5px solid rgba(255, 0, 0, 0.616);
+}
+
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 13px;
+}
+
+
+
+.Valorant-Agent-Information-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+   
+}
+
+.Valorant-Agent-Header {
+    text-align: center;
+    
+}
 
 .Agent-pic {
     width: 100px;
@@ -14,14 +129,14 @@ body {
     width: 190px;
     height: 190px;
     
-    border: 1px solid yellow;
+    border: 1px solid  #FFEC94;
     border-radius: 25px;
     display: flex;
     flex: 0 1 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ff414e;
+    background-color: #ff415a;
     ;
     color: 	white;
 
@@ -33,6 +148,45 @@ body {
     gap: 10px;
 }
 
-.Header-Text {
+#Val-Agent-Head-Text {
     font-size: 25px;
+    font-weight: bold;
 }
+
+.Customer-Feedback-Container {
+    background-color: 	#FFAEAE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.Customer-Quotes-Author{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+figcaption {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Bottom-Signup-Container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #FFEC94;
+    height: 250px;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #FFAEAE;
+    height: 50px;
+}
+
+
