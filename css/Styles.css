@@ -1,6 +1,4 @@
 body {
-    background-color: 	 #FFF0AA;
-    color: rgba(255, 0, 0, 0.575);
     margin: 0;
     
 }
@@ -10,8 +8,8 @@ body {
 .Header-Container {
     display: flex;
     flex-direction: column;
-    background-color: #ffb7c5;
-    height: 450px;
+    background-color: #1F2937;
+    padding-bottom: 20px;
     
     
 }
@@ -19,16 +17,23 @@ body {
 .Header-Container-Center {
     padding-left: 200px;
     padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 20px;
+    gap: 10px;
 }
 
 .Logo {
-    border: 5px solid red;
+    border: 5px solid black;
 }
 
 .Header-Text {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bolder;
     margin-top: 10px;
+    color: #F9FAF8;
 }
 
 
@@ -50,6 +55,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 25px;
     
     
 }
@@ -57,22 +63,23 @@ body {
 .Header-Info-Left-Info{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 250px;
+    width: 60%;
     margin-top: 10px;
-    gap: 5px;
+    gap: 20px;
 }
 
 
 .Header-Website-Info-Text {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+    color: #F9FAF8;
 }
 
 .Header-Website-Info-Subtext {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
 }
 
 .Header-Website-Info-Button {
@@ -84,19 +91,30 @@ body {
 }
 
 .Header-Image-Container {
-    border: 5px solid rgba(255, 0, 0, 0.616);
+    border: 5px solid white;
 }
 
 
 a {
+    font-size: 18px;
     text-decoration: none;
-    color: red;
+    color: #E5E7EB;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 13px;
+}
+
+#Top-Btn {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100px;
+    height: 25px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 25px;
 }
 
 
@@ -109,7 +127,7 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
     gap: 20px;
-   
+    background-color: #fcfcfc;
 }
 
 .Valorant-Agent-Header {
@@ -120,7 +138,7 @@ ul {
 .Agent-pic {
     width: 100px;
     height: auto;
-    border: 5px solid red;
+    border: 5px solid #3882F6;
     border-radius: 25px;
 }
 
@@ -143,39 +161,43 @@ ul {
 }
 
 #Val-Agent-Head-Text {
-    font-size: 30px;
-    font-weight: bold;
-    color: red;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
 }
 
 .Customer-Feedback-Container {
-    background-color: 	#FFAEAE;
+    background-color: 	#E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 300px;
 }
 
 .Customer-Quotes-Author{
     display: flex;
     flex-direction: column;
     width: 1000px;
-    color: black;
-    font-family: 'Waterfall', cursive;
-    font-size: 35px;
+    color: #1F2937;
+    font-family: 'Kalam', cursive;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+
     
 }
 
 figcaption {
     display: flex;
     justify-content: flex-end;
+    font-weight: bold;
 }
 
 .Bottom-Signup-Container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #bcf5bc;
+    background-color: #fcfcfc;
     height: 250px;
     color: white;
 }
@@ -186,10 +208,10 @@ figcaption {
     align-items: center;
     width: 1000px;
     height: 180px;
-    background-color: #CDFFFF;
+    background-color: #3882F6;
     border-radius: 25px;
     border: 3px solid white;
-    color: #400d12;
+    color: white;
     
     
 }
@@ -209,35 +231,27 @@ figcaption {
    font-family: 'Courier New', Courier, monospace;
 }
 
-.Footer {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    background-color: #FFAEAE;
-    height: 50px;
-    color: white;
-    font-weight: 800;
-}
-
 #Bot-Btn {
     flex-grow: 0;
     flex-shrink: 0;
     width: 100px;
     height: 40px;
-    background-color: rgba(136, 255, 0, 0.486);
-    color: black;
+    background-color: #3882F6;
+    color: white;
     border-radius: 10px;
+    border: 1px solid white;
     font-size: 20px;
 }
 
-#Top-Btn {
-    flex-grow: 0;
-    flex-shrink: 0;
-    width: 100px;
-    background-color: orangered;
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #1F2937;
+    height: 50px;
     color: white;
-    border-radius: 25px;
+    font-weight: 800;
 }
 
 
