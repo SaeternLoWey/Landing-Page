@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #ffb7c5;
-    
+    height: 450px;
     
     
 }
@@ -76,9 +76,7 @@ body {
 }
 
 .Header-Website-Info-Button {
-    flex-grow: 0;
-    flex-shrink: 0;
-    width: 100px;
+    
 }
 
 .Header-Links {
@@ -107,7 +105,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 300px;
+    height: 375px;
     padding-left: 20px;
     padding-right: 20px;
     gap: 20px;
@@ -122,23 +120,19 @@ ul {
 .Agent-pic {
     width: 100px;
     height: auto;
-    
+    border: 5px solid red;
+    border-radius: 25px;
 }
 
 .Agents {
     width: 190px;
     height: 190px;
-    
-    border: 1px solid  #FFEC94;
-    border-radius: 25px;
     display: flex;
     flex: 0 1 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ff415a;
-    ;
-    color: 	white;
+    color: 	black;
 
     
 }
@@ -149,8 +143,9 @@ ul {
 }
 
 #Val-Agent-Head-Text {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
+    color: red;
 }
 
 .Customer-Feedback-Container {
@@ -164,7 +159,11 @@ ul {
 .Customer-Quotes-Author{
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 1000px;
+    color: black;
+    font-family: 'Waterfall', cursive;
+    font-size: 35px;
+    
 }
 
 figcaption {
@@ -175,9 +174,39 @@ figcaption {
 .Bottom-Signup-Container {
     display: flex;
     justify-content: center;
-    align-content: center;
-    background-color: #FFEC94;
+    align-items: center;
+    background-color: #bcf5bc;
     height: 250px;
+    color: white;
+}
+
+.Bottom-Centered-Signup-Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 180px;
+    background-color: #CDFFFF;
+    border-radius: 25px;
+    border: 3px solid white;
+    color: #400d12;
+    
+    
+}
+
+#Bottom-Header-Text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#Bottom-Header-Subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.Bottom-Centered-Left {
+   font-family: 'Courier New', Courier, monospace;
 }
 
 .Footer {
@@ -187,6 +216,28 @@ figcaption {
     text-align: center;
     background-color: #FFAEAE;
     height: 50px;
+    color: white;
+    font-weight: 800;
+}
+
+#Bot-Btn {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(136, 255, 0, 0.486);
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#Top-Btn {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100px;
+    background-color: orangered;
+    color: white;
+    border-radius: 25px;
 }
 
 
