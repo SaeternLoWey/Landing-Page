@@ -135,6 +135,8 @@ ul {
 
 .Valorant-Agent-Header {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 
@@ -169,6 +171,7 @@ ul {
     font-size: 40px;
     font-weight: extra-bold;
     color: #1F2937;
+    margin: auto;
 }
 
 .Customer-Feedback-Container {
@@ -216,9 +219,9 @@ figcaption {
     padding-right: 40px;
     padding-left: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    
+    width: 800px;
     
     background-color: #3882F6;
     border-radius: 12px;
